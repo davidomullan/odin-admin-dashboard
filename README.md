@@ -7,10 +7,10 @@ Assignment from The Odin Project:
 - Guidelines: [The Odin Project](https://www.theodinproject.com/lessons/intermediate-html-and-css-admin-dashboard)
 
 
-## Implementation
-- Profile Thumbnail: [TBD]()
-- Font: Roboto
-
-
 ## Guidelines Mock Layout
 ![Guidelines Mock Layout](images/mock-dashboard-project.png)
+
+## References
+- Profile Thumbnail (Ruby): [Joshua Fuller](https://unsplash.com/photos/selective-focus-photography-of-faceted-red-gemstone-p8w7krXVY1k)
+- Icons: [Pictoprogrammers](https://pictogrammers.com/library/mdi/)
+- Font: [Roboto](https://fonts.google.com/specimen/Roboto)

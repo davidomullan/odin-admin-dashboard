@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Odin Admin Dashboard</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+	<!-- Sidebar -->
+	<aside class="sidebar">
+		<div class="site-head">
+			<img src="images/icons/view-dashboard.svg" id="site-logo">
+			<h1 id="site-title">Dashboard</h1>
+		</div>
+
+		<ul class="site-links">
+			<li class="home-link link-icon">Home</li>
+			<li class="profile-link link-icon">Profile</li>
+			<li class="messages-link link-icon">Messages</li>
+			<li class="history-link link-icon">History</li>
+			<li class="tasks-link link-icon">Tasks</li>
+			<li class="communities-link link-icon">Communities</li>
+			<br><br>
+			<li class="settings-link link-icon">Settings</li>
+			<li class="support-link link-icon">Support</li>
+			<li class="privacy-link link-icon">Privacy</li>
+		</ul>
+	</aside>
+
+	<!-- Main Content -->
+	<section class="main">
+		<!-- Header -->
+		<header class="header">
+			<div class="header-top">
+				<div class="header-search">
+					<img src="images/icons/magnify.svg" id="magnify-icon">
+					<input type="text" name="search-bar" placeholder="Search...">
+				</div>
+
+				<div class="header-account">
+					<img src="images/icons/bell-ring-outline.svg" id="bell-icon">
+					<img src="images/icons/profile-thumbnail.jpg" id="profile-thumbnail">
+					<h2>David O'Mullan</h2>
+				</div>
+			</div>
+
+			<div class="header-bottom">
+				<div class="header-welcome">
+					<img src="images/icons/profile-thumbnail.jpg" id="profile-thumbnail">
+					<div class="welcome-text">
+						<p>Hi there,</p>
+						<h2>David O'Mullan (@domullan)</h2>
+					</div>
+				</div>
+
+				<div class="header-buttons">
+					<button type="button" id="new">New</button>
+					<button type="button" id="upload">Upload</button>
+					<button type="button" id="share">Share</button>
+				</div>
+			</div>
+
+		</header>
+
+		<!-- Dashboard Content -->
+		<section class="dashboard">
+			<div class="projects">
+				<h2 class="dashboard-title">Your Projects</h2>
+				<div class="project-grid">
+					<div class="project-1 card">
+						<div class="card-text">
+							<h2>Super Cool Project</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="card-action">
+							<img class="star" url="/" src="images/icons/star-plus-outline.svg">
+							<img class="eye" url="/" src="images/icons/eye-plus-outline.svg">
+							<img class="share" url="/" src="images/icons/share-variant-outline.svg">
+						</div>
+					</div>
+					<div class="project-2 card">
+						<div class="card-text">
+							<h2>Super Cool Project</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+						</div>
+						<div class="card-action">
+							<img class="star" url="/" src="images/icons/star-plus-outline.svg">
+							<img class="eye" url="/" src="images/icons/eye-plus-outline.svg">
+							<img class="share" url="/" src="images/icons/share-variant-outline.svg">
+						</div>
+					</div>
+					<div class="project-3 card">
+						<div class="card-text">
+							<h2>Super Cool Project</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+						<div class="card-action">
+							<img class="star" url="/" src="images/icons/star-plus-outline.svg">
+							<img class="eye" url="/" src="images/icons/eye-plus-outline.svg">
+							<img class="share" url="/" src="images/icons/share-variant-outline.svg">
+						</div>
+					</div>
+					<div class="project-4 card">
+						<div class="card-text">
+							<h2>Super Cool Project</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+						</div>
+						<div class="card-action">
+							<img class="star" url="/" src="images/icons/star-plus-outline.svg">
+							<img class="eye" url="/" src="images/icons/eye-plus-outline.svg">
+							<img class="share" url="/" src="images/icons/share-variant-outline.svg">
+						</div>
+					</div>
+					<div class="project-5 card">
+						<div class="card-text">
+							<h2>Super Cool Project</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class="card-action">
+							<img class="star" url="/" src="images/icons/star-plus-outline.svg">
+							<img class="eye" url="/" src="images/icons/eye-plus-outline.svg">
+							<img class="share" url="/" src="images/icons/share-variant-outline.svg">
+						</div>
+					</div>
+					<div class="project-6 card">
+						<div class="card-text">
+							<h2>Super Cool Project</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+						</div>
+						<div class="card-action">
+							<img class="star" url="/" src="images/icons/star-plus-outline.svg">
+							<img class="eye" url="/" src="images/icons/eye-plus-outline.svg">
+							<img class="share" url="/" src="images/icons/share-variant-outline.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="announcements">
+				<h2 class="dashboard-title">Announcements</h2>
+				<div class="announcements-grid">
+					<div class="announcement-1 anmnt">
+							<h2>Super Cool Project</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="announcement-2 anmnt">
+							<h2>Super Cool Project</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="announcement-3 anmnt">
+						<h2>Super Cool Project</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="trending">
+				<h2 class="dashboard-title">Trending</h2>
+				<div class="trends-grid">
+					<div class="trend-1 trend">
+						<img src="images/icons/profile-thumbnail.jpg" id="profile-thumbnail">
+						<div class="trend-text">
+							<h2>David O'Mullan (@domullan)</h2>
+							<p>Did xyz.</p>
+						</div>
+					</div>
+					<div class="trend-2 trend">
+						<img src="images/icons/profile-thumbnail.jpg" id="profile-thumbnail">
+						<div class="trend-text">
+							<h2>Lorem Ipsum (@lipsum)</h2>
+							<p>Did abc.</p>
+						</div>
+					</div>
+					<div class="trend-3 trend">
+						<img src="images/icons/profile-thumbnail.jpg" id="profile-thumbnail">
+						<div class="trend-text">
+							<h2>Mr. Example (@mexample)</h2>
+							<p>Did hij.</p>
+						</div>
+					</div>
+					<div class="trend-4 trend">
+						<img src="images/icons/profile-thumbnail.jpg" id="profile-thumbnail">
+						<div class="trend-text">
+							<h2>John Smith (@jsmith)</h2>
+							<p>Did qrs.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</section>
+
+</body>
+</html>

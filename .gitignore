@@ -1,0 +1,12 @@
+# DS Store files
+.DS_Store
+
+# Temporary Files
+temp/
+.tmp
+
+# Log Files
+.log
+
+# Env Files
+.env
